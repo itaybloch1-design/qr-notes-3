@@ -1,0 +1,23 @@
+index.html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Random Notes</title>
+  <script>
+    const links = [
+      "https://www.notion.so/34cd1bd20c088084b911f66bf9c81456?v=34cd1bd20c0880ffa747000cfd1ad0cc&source=copy_link",
+      "https://www.notion.so/34cd1bd20c088032b684c5a2bca7efb7?v=34cd1bd20c0880ffa747000cfd1ad0cc&source=copy_link",
+      "https://www.notion.so/Nizu-Nizu-Nizu-I-like-mustard-34cd1bd20c08807390a6dc0464abb2b2?v=34cd1bd20c0880ffa747000cfd1ad0cc&source=copy_link",
+      "https://www.notion.so/A-Donald-Trump-Joke-34cd1bd20c08804094aadec89753f155?v=34cd1bd20c0880ffa747000cfd1ad0cc&source=copy_link",
+      "https://www.notion.so/During-my-teenage-years-I-learned-how-far-one-s-parents-would-go-when-scolding-someone-for-forgetti-34cd1bd20c08802aa478f3f97eaa047b?v=34cd1bd20c0880ffa747000cfd1ad0cc&source=copy_link",
+      "https://www.notion.so/Once-an-angry-nizu-told-me-she-will-be-checking-whether-I-organize-my-bed-or-not-That-nizu-than-for-34cd1bd20c0880e48905d992d002ee06?v=34cd1bd20c0880ffa747000cfd1ad0cc&source=copy_link"
+    ];
+
+    const random = links[Math.floor(Math.random() * links.length)];
+    window.location.href = random;
+  </script>
+</head>
+<body>
+  <h1>Redirecting...</h1>
+</body>
+</html>
